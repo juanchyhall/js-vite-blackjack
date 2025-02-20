@@ -6,7 +6,8 @@
 export const crearCarta = (carta) => {
   const imgCarta = document.createElement("img");
 
-  imgCarta.src = `../../../docs/assets/cartas/${carta}.png`; //3H, JD
+  imgCarta.src = `./assets/cartas/${carta}.png`; //3H, JD
+  imgCarta.src = `../../../public/assets/cartas/${carta}.png`; //3H, JD
   imgCarta.classList.add("carta");
   return imgCarta;
 };
